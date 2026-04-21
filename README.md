@@ -1,19 +1,31 @@
-# electronics_repair_app
+# Electronics Repair App
 
-A new Flutter project.
+A Flutter-based platform connecting customers with repair shops.
 
-## Getting Started
-cd electronics_repair_app
-flutter run 
+## 🛠️ Tech Stack
 
+*   **Frontend**: Flutter (Dart)
+*   **Backend**: Firebase (Auth, Firestore, Storage, Functions, Cloud Messaging)
+*   **State Management**: Native `setState` (No third-party packages like Provider or Bloc are used)
+*   **Maps & Location**: Google Maps Flutter & Geolocator
 
-This project is a starting point for a Flutter application.
+## ✨ Core Features
 
-A few resources to get you started if this is your first Flutter project:
+*   **User Roles**: Customers, Shop Owners, and Admins.
+*   **Repair Workflow**: Create repair requests, track live status, and manage active/past tickets.
+*   **Communication**: Direct chat system between customers and repair shops.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Getting Started
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1.  **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
+
+2.  **Configure Firebase:**
+    Ensure you place your `google-services.json` (Android) and `GoogleService-Info.plist` (iOS) in the appropriate directories, or run `flutterfire configure`.
+
+3.  **Run the app:**
+    ```bash
+    flutter run
+    ```
